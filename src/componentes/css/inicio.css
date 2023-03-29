@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Provicali;
+    src: url(../../cdn/fuentes/Provicali.otf);
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+}
+.inicio {
+    background-color: #18181b;
+    height: 705px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .contenido {
+
+    color: aliceblue;
+}
+
+.inicio .contenido .title {
+    padding-bottom: 30px;
+}
+
+.inicio .contenido .btn {
+    background-color: #ffde59;
+    color: #18181b;
+    font-size: 20px;
+    padding: 10px 20px;
+    letter-spacing: 0.05em;
+    border-radius: 10px;
+    font-family: Provicali;
+}
+
+.inicio .contenido .btn-1 {
+    background-color: #27272a;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Provicali;
+}
+.inicio #img-1 {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 80px;
+
+}
+
+.inicio #img-2 { height: 0;}
+
+
+
+@media only screen and (max-width: 768px) {
+    .inicio {
+        height: 700px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inicio #img-2 {
+
+        height: 200px;
+        width: 200px;
+        margin: 100px 0 100px 0;
+        border-radius: 50%;
+    
+    }
+    
+    
+    .inicio #img-1 { height: 0;}
+
+    .inicio .contenido h1 {
+        font-size: 30px;
+    }
+    .inicio .contenido h2 {
+        font-size: 20px;
+    }
+  }

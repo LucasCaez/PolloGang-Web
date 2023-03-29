@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Evermore;
+    src: url(../../cdn/fuentes/Evermore.ttf);
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+}
+.error404 {
+    background-color: #18181b;
+    height: 795px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.error404 .info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.error404 h1 {
+    color: aliceblue;
+    font-family: Evermore;
+}
+
+.error404 a {
+    color: aliceblue;
+    font-family: Evermore;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+}
