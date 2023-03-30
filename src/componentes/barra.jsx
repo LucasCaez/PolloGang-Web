@@ -9,7 +9,8 @@ function Barra() {
       <a href="/" className="logo"><img src={logo} alt="Logo" /></a>
       <nav className="navegacion">
         <ul>
-          <li><a href="/" target="blank">INICIO</a></li>
+          <li><a href="/" >INICIO</a></li>
+          <li><a href="/equipo" >EQUIPO</a></li>
           <li><a href="/videos" target="blank">VÍDEOS</a></li>
           <li><a href="https://www.youtube.com/@PolloGang" target="blank">FaQ</a></li>
           <li><a href="/contacto" target="blank">CONTACTO</a></li>

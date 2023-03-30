@@ -5,9 +5,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PageNotFound from './paginas/404';
+import EquipoApp from './paginas/equipo';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
+  { path: "/equipo", element: <EquipoApp /> },
 
   { path: "", element: <PageNotFound /> },
   { path: "*", element: <PageNotFound /> },

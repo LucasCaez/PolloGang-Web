@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Coco;
+    src: url(../../cdn/fuentes/Coco-Sharp-Heavy-trial.ttf);
+}
+
+
+body {
+    background-color: #18181b;
+}
+.equipo {
+    background-color: #18181b;
+    display: block;
+    color: #fff;
+    height: auto;
+}
+
+.equipo .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo h1 {
+
+    text-align: center;
+    
+    
+}
+
+.equipo h2 {
+
+    text-align: center;
+    margin: 30px;
+    
+    
+}
+
+
+
+.equipo .caja{
+
+    display: flex;
+    background-color: #0d0d0d;
+    margin: 10px;
+    border-radius: 40px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    height: auto;
+    width: auto;
+    
+
+}
+.equipo .caja .sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.equipo .caja #title {
+    font-family: Coco;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.equipo .caja #role {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.equipo .caja .badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.equipo .caja #badge {
+
+
+    padding: 10px;
+    background-color: #2e2e2c;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.equipo .caja .img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.equipo .caja .img img{
+    padding: 10px;
+    margin-right: 30px;
+    height: 100px;
+    border-radius: 40px;
+    
+}
