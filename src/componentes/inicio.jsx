@@ -16,10 +16,12 @@ function Inicio() {
         <div className="title">
           <h1>PolloGang</h1>
           <h2>¡ Aprende a programar un bot de discord !</h2>
-        </div>
+        </div >
 
-        <a className='btn'  href="https://discord.gg/pollogang" target="blank">SERVIDOR DE DISCORD</a>
-        <a className='btn-1'  href="https://www.youtube.com/@PolloGang" target="blank">YOUTUBE</a>
+        <div className="desc">
+          <a className='btn' href="https://discord.gg/pollogang" target="blank">SERVIDOR DE DISCORD</a>
+          <a className='btn-1' href="https://www.youtube.com/@PolloGang" target="blank">YOUTUBE</a>
+        </div>
       </div>
 
       <img id='img-1' src={logo} alt="logo" />

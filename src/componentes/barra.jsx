@@ -10,8 +10,8 @@ function Barra() {
       <nav className="navegacion">
         <ul>
           <li><a href="/" target="blank">INICIO</a></li>
-          <li><a href="/acerca-de" target="blank">ACERCA DE</a></li>
-          <li><a href="https://www.youtube.com/@PolloGang" target="blank">YouTube</a></li>
+          <li><a href="/videos" target="blank">VÍDEOS</a></li>
+          <li><a href="https://www.youtube.com/@PolloGang" target="blank">FaQ</a></li>
           <li><a href="/contacto" target="blank">CONTACTO</a></li>
 
 
