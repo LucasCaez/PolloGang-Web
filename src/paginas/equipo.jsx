@@ -29,32 +29,26 @@ function EquipoApp() {
       <div className="equipo">
         <h1>STAFF POLLOGANG</h1>
 
-        <h2>Admins <span style={{ color: "#ffde59" }}>PolloGang</span></h2>
 
-
-<div className="team">
-
-  <div className='caja'>
-    <div className="img"><img src={Pollo} /></div>
-    <div className="sub">
-      <p>
-        <a id='title'>PolloGod</a><br />
-        <a id='role'>Owner & CEO</a>
-        <div className="badges">
-          <i id='badge' class="fa-brands fa-discord"></i>
-          <i id='badge' class="fa-brands fa-youtube"></i>
-          <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
-        </div>
-      </p>
-    </div>
-  </div>
-
-</div>
-
-        <h2>Moderadores <span style={{ color: "#ffde59" }}>PolloGang</span></h2>
+        <h2>Alto Cargo <span style={{ color: "#ffde59" }}>PolloGang</span></h2>
 
 
         <div className="team">
+
+          <div className='caja'>
+            <div className="img"><img src={Pollo} /></div>
+            <div className="sub">
+              <p>
+                <a id='title'>PolloGod</a><br />
+                <a id='role'>Owner & CEO</a>
+                <div className="badges">
+                  <i id='badge' class="fa-brands fa-discord"></i>
+                  <i id='badge' class="fa-brands fa-youtube"></i>
+                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </p>
+            </div>
+          </div>
 
           <div className='caja'>
             <div className="img"><img src={Luc4s} /></div>
@@ -63,7 +57,7 @@ function EquipoApp() {
 
               <p>
                 <a id='title'>LUCAS</a><br />
-                <a id='role'>Mod & Dev Web</a>
+                <a id='role'>Admin & Dev Web</a>
                 <div className="badges">
                   <i id='badge' class="fa-brands fa-discord"></i>
                   <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -72,24 +66,6 @@ function EquipoApp() {
             </div>
           </div>
 
-
-
-          <div className='caja'>
-            <div className="img"><img src={Zowiikk} /></div>
-            <div className="sub">
-              <p>
-                <a id='title'>ZOWIIKK</a><br />
-                <a id='role'>Mod & Designer</a>
-                <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
-                </div>
-              </p>
-            </div>
-          </div>
-
-        </div>
-        <div className="team">
 
           <div className='caja'>
             <div className="img"><img src={Nightmarionette} /></div>
@@ -98,7 +74,28 @@ function EquipoApp() {
 
               <p>
                 <a id='title'>Nightmarionette</a><br />
-                <a id='role'>Moderador</a>
+                <a id='role'>Administrador</a>
+                <div className="badges">
+                  <i id='badge' class="fa-brands fa-discord"></i>
+                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div className="team">
+
+  
+        <div className='caja'>
+            <div className="img"><img src={Zowiikk} /></div>
+            <div className="sub">
+              <p>
+                <a id='title'>ZOWIIKK</a><br />
+                <a id='role'>Mod & Designer</a>
                 <div className="badges">
                   <i id='badge' class="fa-brands fa-discord"></i>
                   <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
