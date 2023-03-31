@@ -6,10 +6,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PageNotFound from './paginas/404';
 import EquipoApp from './paginas/equipo';
+import FaQApp from './paginas/faq';
+import FaQAppPermisos from './paginas/permisos';
+import FaQAppEventos from './paginas/eventos';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/equipo", element: <EquipoApp /> },
+  { path: "/faq", element: <FaQApp /> },
+  { path: "/faq/permisos", element: <FaQAppPermisos /> },
+  { path: "/faq/eventos", element: <FaQAppEventos /> },
 
   { path: "", element: <PageNotFound /> },
   { path: "*", element: <PageNotFound /> },

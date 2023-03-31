@@ -11,9 +11,8 @@ function Barra() {
         <ul>
           <li><a href="/" >INICIO</a></li>
           <li><a href="/equipo" >EQUIPO</a></li>
-          <li><a href="/videos" target="blank">VÍDEOS</a></li>
-          <li><a href="https://www.youtube.com/@PolloGang" target="blank">FaQ</a></li>
-          <li><a href="/contacto" target="blank">CONTACTO</a></li>
+          <li><a href="/videos" >VÍDEOS</a></li>
+          <li><a href="/faq">FaQ</a></li>
 
 
         </ul>

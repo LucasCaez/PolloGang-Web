@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Coco;
+    src: url(../../cdn/fuentes/Coco-Sharp-Heavy-trial.ttf);
+}
+
+
+body {
+    background-color: #18181b;
+}
+.faq {
+    background-color: #18181b;
+    display: block;
+    color: #fff;
+    height: auto;
+}
+
+.faq .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h1 {
+    text-align: center; 
+}
+
+.faq h2 {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.faq .contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.faq .faqs {
+    width: 1000px;
+    padding: 50px;
+    zoom: 80%;
+
+}
+.faq .faqs a{
+    background-color: #353530;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+.faq .faqs p{
+    background-color: #202023;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+.faq .faqs img {
+    padding-bottom: 10px;
+}
+
+input{
+    width: 35vw;
+    padding: 10px;
+    outline: none;
+    background-color: #2e2e32;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+.buscador {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+li{
+    margin: 5px 0;
+}
+
+.filtro{
+    display: none;
+}
+
+
+#Lista{
+    font-size: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#Lista li{
+
+    background-color: #383838;
+    padding: 5px 10px;
+    padding-right: 200px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #ffde59;
+    margin: 10px;
+    width: 700px;
+
+}
