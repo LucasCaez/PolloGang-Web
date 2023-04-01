@@ -116,3 +116,25 @@ li{
     width: 700px;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .faq .faqs {
+        zoom: 38%;
+    }
+
+    #Lista li{
+
+        background-color: #383838;
+        padding: 5px 10px;
+        padding-right: 100px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border-left: 4px solid #ffde59;
+        margin: 10px;
+        width: 200px;
+    
+    }
+    
+}
