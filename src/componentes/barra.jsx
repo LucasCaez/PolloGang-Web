@@ -1,7 +1,14 @@
 import './css/barra.css'
+import {useNavigate} from 'react-router-dom';
 import logo from '../cdn/pollogang.png'
 
 function Barra() {
+  const navigate = useNavigate();
+
+  const clickInicio = () => { navigate('/'); };
+  const clickEquipo = () => { navigate('/equipo'); };
+  const clickVideos = () => { navigate('/videos'); };
+  const clickFaQ = () => { navigate('/faq'); };
   return (
 
     <header>
@@ -9,10 +16,10 @@ function Barra() {
       <a href="/" className="logo"><img src={logo} alt="Logo" /></a>
       <nav className="navegacion">
         <ul>
-          <li><a href="/" >INICIO</a></li>
-          <li><a href="/equipo" >EQUIPO</a></li>
-          <li><a href="/videos" >VÍDEOS</a></li>
-          <li><a href="/faq">FaQ</a></li>
+          <li><button onClick={clickInicio} >INICIO</button></li>
+          <li><button onClick={clickEquipo} href="/equipo" >EQUIPO</button></li>
+          <li><button onClick={clickVideos} href="/videos" >VÍDEOS</button></li>
+          <li><button onClick={clickFaQ} href="/faq">FaQ</button></li>
 
 
         </ul>

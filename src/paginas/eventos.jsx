@@ -2,11 +2,16 @@
 import './css/faq.css';
 import Barra from '../componentes/barra';
 import Footer from '../componentes/footer';
+import {useNavigate} from 'react-router-dom';
+
 
 function FaQAppEventos() {
 
 
 
+  const navigate = useNavigate();
+  const clickERRORES = () => { navigate('/faq'); };
+  const clickPerms = () => { navigate('/faq/permisos'); };
 
   return (
 
@@ -17,9 +22,9 @@ function FaQAppEventos() {
         <h1>Eventos <span style={{color:"#ffde59"}}>Discord.js V14</span></h1>
         <div className='buscador'>
           <input type="text" name="buscador" id="buscador-eventos" placeholder="Buscar eventos" />
-          <a  style={{padding:"8px 10px", backgroundColor:"#2e2e32", borderRadius:"8px", marginLeft:"5px", textDecoration:"node", color:"#fff"}} href='/faq'>Ver Errores</a>
-          <a  style={{padding:"8px 10px", backgroundColor:"#2e2e32", borderRadius:"8px", marginLeft:"5px", textDecoration:"node", color:"#fff"}} href='/faq/permisos'>Ver Permisos</a>
-        </div>
+          <button style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} onClick={clickERRORES}>Ver Errores</button>
+          <button style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} onClick={clickPerms}>Ver Permisos</button>
+      </div>
         <div className="contenido">
 
 
@@ -108,11 +113,11 @@ function FaQAppEventos() {
 
             if (e.key === "Escape") e.target.value = ""
 
-            document.querySelectorAll(".eventos").forEach(fruta => {
+            document.querySelectorAll(".eventos").forEach(faqReq => {
 
-              fruta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-                ? fruta.classList.remove("filtro")
-                : fruta.classList.add("filtro")
+              faqReq.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ? faqReq.classList.remove("filtro")
+                : faqReq.classList.add("filtro")
             })
 
           }

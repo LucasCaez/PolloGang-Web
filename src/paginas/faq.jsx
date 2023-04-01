@@ -2,11 +2,16 @@
 import './css/faq.css';
 import Barra from '../componentes/barra';
 import Footer from '../componentes/footer';
+import {useNavigate} from 'react-router-dom';
+
 
 function FaQApp() {
 
 
+  const navigate = useNavigate();
 
+  const clickPerms = () => { navigate('/faq/permisos'); };
+  const clickEventos = () => { navigate('/faq/eventos'); };
 
   return (
 
@@ -17,8 +22,8 @@ function FaQApp() {
         <h1>PROBLEMAS FRECUENTES</h1>
         <div className='buscador'>
           <input type="text" name="buscador" id="buscador" placeholder="Busca tu error" />
-          <a style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} href='/faq/permisos'>Ver Permisos</a>
-          <a style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} href='/faq/eventos'>Ver Eventos</a>
+          <button style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} onClick={clickPerms}>Ver Permisos</button>
+          <button style={{ padding: "8px 10px", backgroundColor: "#2e2e32", borderRadius: "8px", marginLeft: "5px", textDecoration: "node", color: "#fff" }} onClick={clickEventos}>Ver Eventos</button>
         </div>
         <div className="contenido">
 
@@ -249,11 +254,11 @@ function FaQApp() {
 
             if (e.key === "Escape") e.target.value = ""
 
-            document.querySelectorAll(".faqs").forEach(fruta => {
+            document.querySelectorAll(".faqs").forEach(faqReq => {
 
-              fruta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-                ? fruta.classList.remove("filtro")
-                : fruta.classList.add("filtro")
+              faqReq.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ? faqReq.classList.remove("filtro")
+                : faqReq.classList.add("filtro")
             })
 
           }

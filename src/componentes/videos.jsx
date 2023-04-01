@@ -27,10 +27,8 @@ function VideosApp() {
         
 
       <div  className="video">
-        {
-          
+        {    
           data?.items.map((u) => (
-
               <div key={u.publishedAt} id={u.etag} className="mini">
 
                 <img src={u.snippet.thumbnails.medium.url} />
