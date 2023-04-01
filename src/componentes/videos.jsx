@@ -23,13 +23,13 @@ function VideosApp() {
     <>
 <Barra />
       <div className='Info'>
+      <h1>NUESTROS VIDEOS</h1>
+        
 
-      <div className="video">
+      <div  className="video">
         {
           
           data?.items.map((u) => (
-
-            
 
               <div key={u.publishedAt} id={u.etag} className="mini">
 

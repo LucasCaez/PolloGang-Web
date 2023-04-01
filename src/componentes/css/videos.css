@@ -16,6 +16,10 @@
     
 
 }
+.Info h1 {
+    text-align: center; 
+    color: #fff;
+}
 
 .Info .mini {
     display: block;
@@ -77,4 +81,33 @@
     border-radius: 0px;
     color: #fff;
     padding: 0px 0px;
+}
+
+
+input{
+    width: 35vw;
+    padding: 10px;
+    outline: none;
+    background-color: #2e2e32;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+.buscador {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+li{
+    margin: 5px 0;
+}
+
+.filtro{
+    display: none;
 }
