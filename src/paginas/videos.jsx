@@ -1,7 +1,7 @@
 import './css/videos.css'
-import Barra from './barra';
+import Barra from '../componentes/barra';
+import Footer from '../componentes/footer';
 import React, { useEffect, useState } from "react";
-import Footer from './footer';
 
 
 function VideosApp() {

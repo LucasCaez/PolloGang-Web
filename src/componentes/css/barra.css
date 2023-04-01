@@ -70,3 +70,20 @@ header{
 	cursor: pointer;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+	.navegacion ul{
+		list-style: none;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		text-align: center;
+		margin-right: 15px;
+	
+	}
+
+
+    
+}

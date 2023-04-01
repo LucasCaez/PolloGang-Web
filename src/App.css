@@ -1,38 +1,255 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Provicali;
+  src: url(./cdn/fuentes/Provicali.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  width: auto;
+  padding: 0%;
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inicio {
+  background-color: #18181b;
+  height: 705px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.inicio .contenido {
+
+  color: aliceblue;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.inicio .contenido .title {
+  padding-bottom: 30px;
+}
+
+.inicio .contenido .btn {
+  background-color: #ffde59;
+  color: #18181b;
+  font-size: 20px;
+  padding: 10px 20px;
+  letter-spacing: 0.05em;
+  border-radius: 10px;
+  font-family: Provicali;
+}
+
+.inicio .contenido .btn-1 {
+  background-color: #27272a;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: Provicali;
+}
+
+.inicio .contenido .btn-1:hover {background-color: #27272ad7;}
+.inicio .contenido .btn:hover {background-color: #ffde59e0;}
+.inicio #img-1 {
+
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 80px;
+
+}
+
+.inicio #img-2 { height: 0;}
+
+
+
+@media only screen and (max-width: 768px) {
+  .inicio {
+      height: 700px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .inicio #img-2 {
+
+      height: 200px;
+      width: 200px;
+      margin: 100px 0 100px 0;
+      border-radius: 50%;
+  
   }
+  
+  
+  .inicio #img-1 { 
+    
+  height: 0px;
+  width: px;
+  border-radius: 0%;
+  margin-left: 0px;
+  }
+
+  .inicio .contenido h1 {
+      font-size: 30px;
+  }
+  .inicio .contenido h2 {
+      font-size: 20px;
+  }
+
+  .inicio .desc {
+      zoom: 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Info {
+  height: auto;
+  width: auto;
+  background-color: #18181b;
+}
+
+.Info .content-d {
+
+  display: flex;
+  color: #fff;
+  align-items: center;
+  
+}
+
+.Info .content-d h3 { font-family: Provicali;}
+.Info .content-d img {
+  padding: 50px;
+  padding-bottom: 10px;
+  height: 200px;
+}
+.Info .int {
+  background-color: #2f2d2d;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.Info .content-i {
+
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: end;
+}
+
+.Info .content-i h3 { font-family: Provicali;}
+.Info .content-i img {
+  padding: 50px;
+  padding-bottom: 10px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Info .content-d img { height: 80px; padding-right: 10px; }
+  .Info .content-i img { height: 80px; padding-top: 100px; padding-left: 10px;}
+  .Info .int { margin-left: 10px; margin-right: 10px; padding: 20px 0px; padding-left: 15px;}
+}
+
+
+
+
+
+
+
+
+.Caracteristicas {
+
+  color: #fff;
+  width: auto;
+  height: auto;
+  background-color: #18181b;
+  padding-bottom: 50px;
+
+}
+
+#c-1 {
+  font-size: auto;
+}
+
+#c-2 {
+  font-size: 0px;
+}
+
+.Caracteristicas h1 {
+
+  text-align: center;
+  margin-right: 200px;
+
+}
+.Caracteristicas h4 {
+
+  text-align: center;
+  color: #ffde59;
+
+}
+
+.Caracteristicas .i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+.Caracteristicas .info {
+
+  margin: 10px;
+  background-color: #2f2d2d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Caracteristicas {
+
+      display: block;
+  
+  }
+
+  #c-2 {
+      font-size:30px;
+      margin-right: 0;
+      padding: 30px;
+  }
+  
+  #c-1 {
+      font-size: 0px;
+  }
+
+  .Caracteristicas .i {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .Caracteristicas .in {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  }
+  
+
+
 }
