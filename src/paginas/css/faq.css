@@ -110,11 +110,16 @@ li{
     padding: 5px 10px;
     padding-right: 200px;
     padding-left: 15px;
-    border-radius: 10px;
+    border-radius: 6px;
     border-left: 4px solid #ffde59;
     margin: 10px;
     width: 700px;
 
+}
+
+.c ul {
+    margin: 0 0 0 0;
+    padding: 0;
 }
 
 
@@ -136,5 +141,7 @@ li{
         width: 200px;
     
     }
+
+
     
 }
