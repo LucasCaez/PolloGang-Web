@@ -48,7 +48,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id="glob" className="faqs">
               <a>
                 No aparece la tabla de eventos/comandos.
               </a>
@@ -106,7 +106,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id='object' className="faqs">
               <a>Object is not defined.</a>
               <p><br />
                 Se debe a el uso de variables no definidas. En caso de que sean variables con valor fijo, definirlas como constante usando: const. En caso que sea algo variante realizarlo con let. <br />
@@ -117,7 +117,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id='module' className="faqs">
               <a>Error: (Cannot find module).
               </a>
               <p><br />
@@ -156,7 +156,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id='module'  className="faqs">
               <a>Cannot find module
                 .
               </a>
@@ -174,7 +174,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id='string'  className="faqs">
               <a>Invalid string format & Command name is invalid. </a>
               <p><br />
 
@@ -221,7 +221,7 @@ function FaQApp() {
 
             </div>
 
-            <div className="faqs">
+            <div id='mongo-buffering' className="faqs">
               <a>MongooseError: Operation `Model.findOne()` buffering timed out after 10000ms</a>
               <p><br />
 
