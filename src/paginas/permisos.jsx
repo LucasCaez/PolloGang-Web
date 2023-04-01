@@ -11,8 +11,8 @@ function FaQAppPermisos() {
 
   const navigate = useNavigate();
 
-  const clickERRORES = () => { navigate('/faq'); };
-  const clickEventos = () => { navigate('/faq/eventos'); };
+  const clickERRORES = () => { navigate('/faq/'); };
+  const clickEventos = () => { navigate('/faq/eventos/'); };
 
   return (
 

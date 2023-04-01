@@ -6,9 +6,9 @@ function Barra() {
   const navigate = useNavigate();
 
   const clickInicio = () => { navigate('/'); };
-  const clickEquipo = () => { navigate('/equipo'); };
-  const clickVideos = () => { navigate('/videos'); };
-  const clickFaQ = () => { navigate('/faq'); };
+  const clickEquipo = () => { navigate('/equipo/'); };
+  const clickVideos = () => { navigate('/videos/'); };
+  const clickFaQ = () => { navigate('/faq/'); };
   return (
 
     <header>
@@ -16,10 +16,10 @@ function Barra() {
       <a href="/" className="logo"><img src={logo} alt="Logo" /></a>
       <nav className="navegacion">
         <ul>
-          <li><button onClick={clickInicio} >INICIO</button></li>
-          <li><button onClick={clickEquipo} href="/equipo" >EQUIPO</button></li>
-          <li><button onClick={clickVideos} href="/videos" >VÍDEOS</button></li>
-          <li><button onClick={clickFaQ} href="/faq">FaQ</button></li>
+          <li><button onClick={clickInicio}>INICIO</button></li>
+          <li><button onClick={clickEquipo}>EQUIPO</button></li>
+          <li><button onClick={clickVideos}>VÍDEOS</button></li>
+          <li><button onClick={clickFaQ}>FaQ</button></li>
 
 
         </ul>

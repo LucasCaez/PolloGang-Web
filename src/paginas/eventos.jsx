@@ -10,8 +10,8 @@ function FaQAppEventos() {
 
 
   const navigate = useNavigate();
-  const clickERRORES = () => { navigate('/faq'); };
-  const clickPerms = () => { navigate('/faq/permisos'); };
+  const clickERRORES = () => { navigate('/faq/'); };
+  const clickPerms = () => { navigate('/faq/permisos/'); };
 
   return (
 
