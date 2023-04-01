@@ -46,7 +46,7 @@ function VideosApp() {
       </div>
       </div>
 
-
+<Footer />
 
     </>
   );
