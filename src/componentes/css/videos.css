@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Provicali;
+    src: url(../../cdn/fuentes/Coco-Sharp-Heavy-trial.ttf);
+}
+
+.Info {
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.Info .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.Info .mini {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #323234;
+    margin: 30px;
+    padding: 30px;
+    height: 270px;
+    border-radius: 10px;
+    width: 320px;
+    
+
+}
+
+.Info .mini .text {
+    color: aliceblue;
+    display: block;
+}
+.Info .mini .btn {
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+#tAJWqcg6Py8PJqDq2xByusDzL3M{
+    height: 0;
+    width: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    border-radius: 0px;
+    width: 0px;
+}
+
+#tAJWqcg6Py8PJqDq2xByusDzL3M img{
+    height: 0;
+    width: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    border-radius: 0px;
+    width: 0px;
+}
+
+#tAJWqcg6Py8PJqDq2xByusDzL3M .text{
+    font-size: 0px;
+    padding: 0;
+}
+#tAJWqcg6Py8PJqDq2xByusDzL3M .btn {
+    background-color: rgb(31, 30, 30);
+    border-radius: 0px;
+    color: #fff;
+    padding: 0px 0px;
+}

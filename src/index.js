@@ -9,6 +9,7 @@ import EquipoApp from './paginas/equipo';
 import FaQApp from './paginas/faq';
 import FaQAppPermisos from './paginas/permisos';
 import FaQAppEventos from './paginas/eventos';
+import VideosApp from './componentes/videos';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   { path: "/faq", element: <FaQApp /> },
   { path: "/faq/permisos", element: <FaQAppPermisos /> },
   { path: "/faq/eventos", element: <FaQAppEventos /> },
+  { path: "/videos", element: <VideosApp /> },
 
   { path: "", element: <PageNotFound /> },
   { path: "*", element: <PageNotFound /> },

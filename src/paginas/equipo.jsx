@@ -42,9 +42,9 @@ function EquipoApp() {
                 <a id='title'>PolloGod</a><br />
                 <a id='role'>Owner & CEO</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-brands fa-youtube"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-brands fa-youtube"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -59,8 +59,8 @@ function EquipoApp() {
                 <a id='title'>LUCAS</a><br />
                 <a id='role'>Admin & Dev Web</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -76,8 +76,8 @@ function EquipoApp() {
                 <a id='title'>Nightmarionette</a><br />
                 <a id='role'>Administrador</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -97,8 +97,8 @@ function EquipoApp() {
                 <a id='title'>ZOWIIKK</a><br />
                 <a id='role'>Mod & Designer</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -111,8 +111,8 @@ function EquipoApp() {
                 <a id='title'>BERNY</a><br />
                 <a id='role'>Moderador</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -134,8 +134,8 @@ function EquipoApp() {
                 <a id='title'>CESAAARIN</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -150,8 +150,8 @@ function EquipoApp() {
                 <a id='title'>Alei</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -164,8 +164,8 @@ function EquipoApp() {
                 <a id='title'>LOXICO</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -184,8 +184,8 @@ function EquipoApp() {
                 <a id='title'>RENYO</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -198,8 +198,8 @@ function EquipoApp() {
                 <a id='title'>STEVENNN</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
@@ -212,8 +212,8 @@ function EquipoApp() {
                 <a id='title'>CésarBT</a><br />
                 <a id='role'>Helper</a>
                 <div className="badges">
-                  <i id='badge' class="fa-brands fa-discord"></i>
-                  <i id='badge' class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i id='badge' className="fa-brands fa-discord"></i>
+                  <i id='badge' className="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </p>
             </div>
