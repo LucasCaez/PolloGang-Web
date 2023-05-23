@@ -26,7 +26,7 @@ const router = createBrowserRouter([
   { element: <PageNotFound /> },
 
 ])
-
+// as
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
